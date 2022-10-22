@@ -9,4 +9,4 @@ def some_func():
 thread1 = threading.Thread(target=some_func)
 thread1.start()
 thread1.join()
-print(threading.activeCount())
+print(threading.active_count())
